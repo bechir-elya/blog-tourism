@@ -1,0 +1,258 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/********header********/
+
+header#home{
+  background-image: url(img/fond.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom:5%;
+}
+
+header a{
+  color: white ;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.linkBackground{
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  padding: 2%;
+  width: 70%;
+} 
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 20%;
+}
+
+.discover a {
+ display: block;
+ margin: auto;
+ text-align: center;
+ width: 5%;
+ border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.3);
+ font-size: 1.1rem;
+ font-weight: bold;
+ padding: .4%;
+}
+
+.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+  margin-top: 2%;
+}
+
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll a {
+  margin-right: 5%;
+  color: #43a3d4;
+}
+
+.card {
+  margin-right: 2%;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 270px;
+}
+
+.infos {
+  margin-top: 10%;
+}
+
+.infos .col {
+  background-color: #f4f4f4;
+  margin-right: 2%;
+  padding: 3%;
+}
+
+.infos .col-lg-6 {
+  background-color: #f4f4f4;
+  margin-right: 2%; 
+  padding: 3%;
+}
+
+.infos h5 {
+  color:#43a3d4;
+}
+
+.socialNetworks {
+  color: #43a3d4;
+}
+
+.infos .form-control {
+  width: 70%;
+}
+
+.infos button {
+  width: 25%;
+  border: none;
+  color: white;
+  background-color: #43a3d4;
+}
+
+
+footer {
+  background-color: #5c525d;
+  color: white;
+  padding: 2%;
+  margin-top: 4%;
+}
+
+footer img {
+  width: 10%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+header#details{
+  background-image: url(img/img7.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom:20%;
+}
+
+.descriptionAndComment.col {
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 2%;
+  background-color: #f4f4f4;
+}
+
+.descriptionAndComment.col h2 {
+  color: #43a3d4;
+  margin-bottom: 5%;
+}
+
+.descriptionAndComment.col .posted {
+  color: #43a3d4;
+}
+
+.descriptionAndComment.col .form-control {
+  margin-bottom: 2%;
+}
+
+.descriptionAndComment button {
+  border: none;
+  color: white;
+  background-color: #43a3d4;
+  width: 20%;
+  padding: 1%;
+}
+
+.comments {
+  background-color: #43a3d4;
+  color: white;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.comments .dateCom {
+  text-align: end;
+}
+
+
+
+header.adminPage {
+  background-color: #70626f;
+  color: white;
+  padding: 1%;
+}
+
+header.adminPage a {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.adminMain ul {
+  list-style: none;
+}
+
+.adminMain li {
+  margin-top: 5%;
+}
+
+.adminMain .dashBoard {
+  margin-top: 2%;
+  margin-right: 2%;
+  background-color: #f4f4f4;
+}
+
+.adminMain .dashBoard a {
+  text-decoration: none;
+  font-size: large;
+  display: block;
+  padding: 1%;
+}
+
+.adminMain .dashBoard a:hover {
+  background-color: #43a3d4;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.adminMain .articlesTable {
+  margin-top: 2%;
+}
+
+.articlesTable #add {
+  background-color: #43a3d4;
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+.articlesTable td .modif {
+  color: #5c525d;
+  text-decoration: none;
+}
+
+.articlesTable td .sup {
+  color: #dd4b63;
+  text-decoration: none;
+  border: none;
+}
+
+.adminMain .addArticle {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.adminMain .addArticle a {
+  text-decoration: none;
+  background-color: #43a3d4;
+  color: white;
+  padding: 1%;
+  width: 10%;
+  border-radius: 5px;
+  text-align: center;
+}
