@@ -4,10 +4,13 @@ import cookieParser from "cookie-parser";
 import { connectDB } from "./config/dbconfig.js";
 import articleRouter from "./routes/articleRoutes.js"
 import cors from "cors";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
-const port = 1963;
+const port = process.env.APP_PORT
 
 app.use(cookieParser());
 app.use(bodyParser.json());
